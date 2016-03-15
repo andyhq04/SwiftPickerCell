@@ -12,6 +12,12 @@
 		A1B795A11C984ED0006A1EA8 /* SwiftPickerCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B795A01C984ED0006A1EA8 /* SwiftPickerCellTests.swift */; };
 		A1B795AC1C98537E006A1EA8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1B795AB1C98537E006A1EA8 /* .gitignore */; };
 		A1B795AD1C98537E006A1EA8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A1B795AB1C98537E006A1EA8 /* .gitignore */; };
+		A1B795B01C985962006A1EA8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A1B795AF1C985962006A1EA8 /* LICENSE */; };
+		A1B795B11C985962006A1EA8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A1B795AF1C985962006A1EA8 /* LICENSE */; };
+		A1B795B31C985983006A1EA8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A1B795B21C985983006A1EA8 /* README.md */; };
+		A1B795B41C985983006A1EA8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = A1B795B21C985983006A1EA8 /* README.md */; };
+		A1B795B61C985A36006A1EA8 /* SwiftPickerCell.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A1B795B51C985A36006A1EA8 /* SwiftPickerCell.podspec */; };
+		A1B795B71C985A36006A1EA8 /* SwiftPickerCell.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A1B795B51C985A36006A1EA8 /* SwiftPickerCell.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +38,9 @@
 		A1B795A01C984ED0006A1EA8 /* SwiftPickerCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftPickerCellTests.swift; sourceTree = "<group>"; };
 		A1B795A21C984ED0006A1EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B795AB1C98537E006A1EA8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A1B795AF1C985962006A1EA8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A1B795B21C985983006A1EA8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1B795B51C985A36006A1EA8 /* SwiftPickerCell.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SwiftPickerCell.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +65,7 @@
 		A1B795871C984ECF006A1EA8 = {
 			isa = PBXGroup;
 			children = (
-				A1B795AB1C98537E006A1EA8 /* .gitignore */,
+				A1B795AE1C985931006A1EA8 /* Metadata */,
 				A1B795931C984ECF006A1EA8 /* SwiftPickerCell */,
 				A1B7959F1C984ED0006A1EA8 /* SwiftPickerCellTests */,
 				A1B795921C984ECF006A1EA8 /* Products */,
@@ -88,6 +97,17 @@
 				A1B795A21C984ED0006A1EA8 /* Info.plist */,
 			);
 			path = SwiftPickerCellTests;
+			sourceTree = "<group>";
+		};
+		A1B795AE1C985931006A1EA8 /* Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				A1B795AB1C98537E006A1EA8 /* .gitignore */,
+				A1B795AF1C985962006A1EA8 /* LICENSE */,
+				A1B795B21C985983006A1EA8 /* README.md */,
+				A1B795B51C985A36006A1EA8 /* SwiftPickerCell.podspec */,
+			);
+			name = Metadata;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B795B61C985A36006A1EA8 /* SwiftPickerCell.podspec in Resources */,
+				A1B795B01C985962006A1EA8 /* LICENSE in Resources */,
 				A1B795AC1C98537E006A1EA8 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -189,6 +211,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B795B71C985A36006A1EA8 /* SwiftPickerCell.podspec in Resources */,
+				A1B795B11C985962006A1EA8 /* LICENSE in Resources */,
 				A1B795AD1C98537E006A1EA8 /* .gitignore in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B795B31C985983006A1EA8 /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +232,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B795B41C985983006A1EA8 /* README.md in Sources */,
 				A1B795A11C984ED0006A1EA8 /* SwiftPickerCellTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
